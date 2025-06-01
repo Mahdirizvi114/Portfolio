@@ -48,12 +48,13 @@ const Hero = () => {
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
 
-              {/* View Resume Button */}
+              {/* New Resume Download Button */}
               <Button size="lg" variant="outline" asChild>
                 <a
-                  href="/src/components/images/cv.pdf"
+                  href="/cv.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
+                  
                 >
                   View Resume
                 </a>
