@@ -37,7 +37,7 @@ const Projects = () => {
       demo: "https://example.com",
     },
     {
-      title: "Content Management API",
+      title: "Property Management",
       description:
         "A comprehensive property management system built with Django and DRF for the backend, SQL for the database, and React.js for the frontend. Features include tenant management, lease tracking, rent collection, and maintenance requests.",
       tags: ["Django", "DRF", "JWT", "SQL", "TypeScript", "Reactjs"],
