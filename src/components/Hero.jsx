@@ -1,4 +1,3 @@
-
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Terminal, Database, Server } from "lucide-react";
@@ -48,9 +47,21 @@ const Hero = () => {
                 View Projects
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
+
+              {/* View Resume Button */}
               <Button size="lg" variant="outline" asChild>
-                <a href="#contact">Get in Touch</a>
+                <a
+                  href="/src/components/images/cv.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Resume
+                </a>
               </Button>
+
+              {/* <Button size="lg" variant="outline" asChild>
+                <a href="#contact">Get in Touch</a>
+              </Button> */}
             </motion.div>
           </motion.div>
 
